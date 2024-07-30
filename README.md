@@ -16,6 +16,22 @@
 2. El sistema debe tener una interfaz amigable y fácil de usar.
 3. El sistema debe garantizar la seguridad de los datos de los usuarios.
 
+# Diseño del Sistema de Gestión de Cajeros
+
+## Arquitectura del Sistema
+
+![Arquitectura del Sistema](ruta/al/diagrama-de-arquitectura.png)
+
+## Diagrama de Flujo
+
+![Diagrama de Flujo](ruta/al/diagrama-de-flujo.png)
+
+## Descripción de Componentes
+
+- **Componente de Autenticación**: Responsable de manejar el inicio de sesión de los usuarios.
+- **Componente de Transacciones**: Responsable de manejar las operaciones de retiro, depósito y consulta de saldo.
+- **Componente de Reportes**: Responsable de generar reportes de transacciones.
+
 
 # Tareas del Proyecto de Gestión de Cajeros
 
