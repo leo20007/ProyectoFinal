@@ -18,14 +18,6 @@
 
 # Diseño del Sistema de Gestión de Cajeros
 
-## Arquitectura del Sistema
-
-![Arquitectura del Sistema](ruta/al/diagrama-de-arquitectura.png)
-
-## Diagrama de Flujo
-
-![Diagrama de Flujo](ruta/al/diagrama-de-flujo.png)
-
 ## Descripción de Componentes
 
 - **Componente de Autenticación**: Responsable de manejar el inicio de sesión de los usuarios.
