@@ -118,37 +118,6 @@ Git es necesario para clonar el repositorio del proyecto.
 
 3. Abre [http://localhost:4200](http://localhost:4200) en tu navegador para ver la aplicación en acción.
 
-## Despliegue
-
-Para desplegar la aplicación en un entorno de producción, sigue las instrucciones específicas para el despliegue de Node.js y Angular en tu servidor de producción.
-
-### Construir para Producción
-
-#### Servidor
-
-1. Navega al directorio del servidor:
-    ```sh
-    cd server
-    ```
-2. Construye el servidor:
-    ```sh
-    npm run build
-    ```
-
-#### Cliente
-
-1. Navega al directorio del cliente:
-    ```sh
-    cd ../client
-    ```
-2. Construye la aplicación Angular para producción:
-    ```sh
-    ng build --prod
-    ```
-
-## Soporte y Contribuciones
-
-Si necesitas ayuda o quieres contribuir al proyecto, revisa el archivo `CONTRIBUTING.md` para más detalles.
 
 ## Licencia
 
