@@ -66,7 +66,7 @@ Git es necesario para clonar el repositorio del proyecto.
 
 1. Clona el repositorio del proyecto desde GitHub:
     ```sh
-    git clone https://github.com/tu-usuario/Gestion-de-Cajeros.git
+    git clone https://github.com/tu-usuario/ProyectoFinal.git
     cd Gestion-de-Cajeros
     ```
 
@@ -93,22 +93,6 @@ Git es necesario para clonar el repositorio del proyecto.
     ```sh
     npm install
     ```
-
-## Configuración del Entorno
-
-### Variables de Entorno del Servidor
-
-1. Crea un archivo `.env` en el directorio del servidor (`server`).
-2. Agrega las siguientes variables de entorno:
-    ```plaintext
-    PORT=3000
-    MONGO_URI=mongodb://localhost:27017/gestion_cajeros
-    JWT_SECRET=tu_secreto_para_jwt
-    ```
-
-### Configuración del Cliente
-
-1. Ajusta las configuraciones de API en el cliente si es necesario. Abre el archivo `src/environments/environment.ts` en el directorio del cliente (`client`) y asegúrate de que la URL de la API apunte a tu servidor.
 
 ## Iniciando la Aplicación
 
@@ -192,48 +176,4 @@ Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 - [ ] Realizar pruebas unitarias y de integración.
 - [ ] Documentar el código fuente.
 - [ ] Desplegar el sistema en el servidor.
-
-
-### Instalación
-### Prerrequisitos
-
-Asegúrate de tener instalados los siguientes programas:
-
-- [Node.js](https://nodejs.org/)
-- [MongoDB](https://www.mongodb.com/)
-- [Angular CLI](https://angular.io/cli)
-
-### Instalación
-
-1. Clona el repositorio:
-    ```sh
-    git clone " "
-    cd Gestion-de-Cajeros
-    ```
-
-2. Instala las dependencias del servidor (Node.js):
-    ```sh
-    cd server
-    npm install
-    ```
-
-3. Instala las dependencias del cliente (Angular):
-    ```sh
-    cd ../client
-    npm install
-    ```
-
-### Scripts Disponibles
-
-En el directorio del proyecto, puedes ejecutar los siguientes comandos:
-
-#### `npm start`
-
-Inicia la aplicación en modo de desarrollo.
-
-Para el servidor:
-```sh
-cd server
-npm start
-
 
