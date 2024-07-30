@@ -36,3 +36,51 @@
 - [ ] Documentar el código fuente.
 - [ ] Desplegar el sistema en el servidor.
 
+# Sistema de Gestión de Cajeros
+
+Este proyecto es un sistema de gestión de cajeros automáticos desarrollado utilizando el stack MEAN (MongoDB, Express.js, Angular, Node.js). Permite a los usuarios realizar operaciones bancarias básicas como consultar su saldo, realizar retiros y depósitos, y generar reportes de transacciones.
+
+## Comenzando
+
+### Prerrequisitos
+
+Asegúrate de tener instalados los siguientes programas:
+
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/)
+- [Angular CLI](https://angular.io/cli)
+
+### Instalación
+
+1. Clona el repositorio:
+    ```sh
+    git clone https://github.com/tu-usuario/Gestion-de-Cajeros.git
+    cd Gestion-de-Cajeros
+    ```
+
+2. Instala las dependencias del servidor (Node.js):
+    ```sh
+    cd server
+    npm install
+    ```
+
+3. Instala las dependencias del cliente (Angular):
+    ```sh
+    cd ../client
+    npm install
+    ```
+
+### Scripts Disponibles
+
+En el directorio del proyecto, puedes ejecutar los siguientes comandos:
+
+#### `npm start`
+
+Inicia la aplicación en modo de desarrollo.
+
+Para el servidor:
+```sh
+cd server
+npm start
+
+
