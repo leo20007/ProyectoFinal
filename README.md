@@ -1,5 +1,9 @@
 # ProyectoFinal
 
+# Sistema de Gestión de Cajeros
+
+Este proyecto es un sistema de gestión de cajeros automáticos desarrollado utilizando el stack MEAN (MongoDB, Express.js, Angular, Node.js). Permite a los usuarios realizar operaciones bancarias básicas como consultar su saldo, realizar retiros y depósitos, y generar reportes de transacciones.
+
 # Requerimientos del Sistema de Gestión de Cajeros
 
 ## Requerimientos Funcionales
@@ -36,12 +40,8 @@
 - [ ] Documentar el código fuente.
 - [ ] Desplegar el sistema en el servidor.
 
-# Sistema de Gestión de Cajeros
 
-Este proyecto es un sistema de gestión de cajeros automáticos desarrollado utilizando el stack MEAN (MongoDB, Express.js, Angular, Node.js). Permite a los usuarios realizar operaciones bancarias básicas como consultar su saldo, realizar retiros y depósitos, y generar reportes de transacciones.
-
-## Comenzando
-
+### Instalación
 ### Prerrequisitos
 
 Asegúrate de tener instalados los siguientes programas:
