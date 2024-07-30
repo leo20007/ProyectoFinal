@@ -54,7 +54,7 @@ Asegúrate de tener instalados los siguientes programas:
 
 1. Clona el repositorio:
     ```sh
-    git clone https://github.com/tu-usuario/Gestion-de-Cajeros.git
+    git clone " "
     cd Gestion-de-Cajeros
     ```
 
